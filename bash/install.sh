@@ -1,2 +1,2 @@
-ln -s ~/repos/dotfiles/bash/.bash_profile ~/.bash_profile
-ln -s ~/repos/dotfiles/bash/.bashrc ~/.bashrc
+ln -s $DOTFILES/bash/.bash_profile ~/.bash_profile
+ln -s $DOTFILES/bash/.bashrc ~/.bashrc

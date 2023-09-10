@@ -1,1 +1,2 @@
-ln -s ~/repos/dotfiles/vim/.vimrc ~/.vimrc
+echo $DOTFILES
+ln -s $DOTFILES/vim/.vimrc ~/.vimrc

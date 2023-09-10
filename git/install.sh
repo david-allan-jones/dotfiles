@@ -1,1 +1,1 @@
-git config --global core.excludesfile ~/repos/dotfiles/git/.gitignore
+git config --global core.excludesfile $DOTFILES/git/.gitignore

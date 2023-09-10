@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export DOTFILES=$(pwd -P)
+
 writeGreen() {
 	local GREEN = "\033[03m"
 	local RESET = "\033[39M"

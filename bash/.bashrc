@@ -121,10 +121,6 @@ alias gf='git fetch'
 alias root='cd ~/../..'
 alias home='cd ~'
 
-repos() {
-	cd ~/repos/$1
-}
-
 gp() {
 	git pull origin $1 
 }
