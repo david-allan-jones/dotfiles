@@ -129,6 +129,10 @@ commit() {
 	git commit -m $1	
 }
 
+irebase() {
+	git rebase -i HEAD~$1
+}
+
 v() {
 	if [ -z "$1" ]; then
 		vim .
