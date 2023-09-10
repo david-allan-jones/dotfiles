@@ -1,1 +1,3 @@
-ln -s ~/repos/dotfiles/gnu/inputrc /etc/inputrc
+#!/bin/bash
+
+ln -s $(pwd)/gnu/inputrc /etc/inputrc

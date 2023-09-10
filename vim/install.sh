@@ -1,1 +1,3 @@
-ln -s ~/repos/dotfiles/vim/.vimrc ~/.vimrc
+#!/bin/bash
+
+ln -s $(pwd)/vim/.vimrc ~/.vimrc
