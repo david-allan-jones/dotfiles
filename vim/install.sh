@@ -1,2 +1,1 @@
-echo $DOTFILES
-ln -s $DOTFILES/vim/.vimrc ~/.vimrc
+ln -s $(pwd)/vim/.vimrc ~/.vimrc

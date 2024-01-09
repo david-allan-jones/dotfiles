@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export DOTFILES=$(pwd -P)
+export DOTFILES=$(pwd)
 
 GREEN="\033[32m"
 YELLOW="\033[33m"

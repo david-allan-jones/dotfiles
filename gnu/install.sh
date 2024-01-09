@@ -1,1 +1,1 @@
-ln -s $DOTFILES/gnu/inputrc /etc/inputrc
+ln -s $(pwd)/gnu/inputrc /etc/inputrc
