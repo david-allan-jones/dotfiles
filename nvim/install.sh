@@ -12,5 +12,6 @@ sudo apt install libfuse2
 # Copy config
 
 chmod -R 755 $(pwd)/nvim/nvim
+sudo rm -rf ~/.config/nvim
 sudo ln -s $(pwd)/nvim/nvim ~/.config/nvim
 chmod -R 755 ~/.config/nvim
