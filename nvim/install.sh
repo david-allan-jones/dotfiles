@@ -5,9 +5,10 @@ sudo chmod u+x nvim.appimage
 sudo mv nvim.appimage /usr/local/bin/nvim
 sudo rm nvim.appimage
 
-# Install libfuse2 (needed to open the app image)
+# Install libs
 
-sudo apt install libfuse2
+sudo apt install libfuse2 # needed to open app image
+sudo apt install ripgrep  # for telescope
 
 # Copy config
 

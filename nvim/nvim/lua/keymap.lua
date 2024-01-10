@@ -1,15 +1,17 @@
-vim.api.nvim_set_keymap('i', 'jj', '<Esc>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<Esc><Esc>', ':noh<CR><Esc>', {noremap = true})
+vim.g.mapleader = " "
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
-vim.api.nvim_set_keymap('n', '<Up>', '<NOP>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<Down>', '<NOP>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<Left>', '<NOP>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<Right>', '<NOP>', {noremap = true})
+vim.keymap.set('i', 'jj', '<Esc>')
+vim.keymap.set('n', '<Esc><Esc>', ':noh<CR><Esc>')
 
-vim.api.nvim_set_keymap('n', '<C-f>', '<C-f>zz', {noremap = true})
-vim.api.nvim_set_keymap('n', '<C-b>', '<C-b>zz', {noremap = true})
-vim.api.nvim_set_keymap('n', '<C-d>', '<C-d>zz', {noremap = true})
-vim.api.nvim_set_keymap('n', '<C-u>', '<C-u>zz', {noremap = true})
-vim.api.nvim_set_keymap('n', '<C-p>', ':Ex<Enter>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<Space>', '/', {noremap = true})
+vim.keymap.set('n', '<Up>', '<NOP>')
+vim.keymap.set('n', '<Down>', '<NOP>')
+vim.keymap.set('n', '<Left>', '<NOP>')
+vim.keymap.set('n', '<Right>', '<NOP>')
+
+vim.keymap.set('n', '<C-f>', '<C-f>zz')
+vim.keymap.set('n', '<C-b>', '<C-b>zz')
+vim.keymap.set('n', '<C-d>', '<C-d>zz')
+vim.keymap.set('n', '<C-u>', '<C-u>zz')
+vim.keymap.set('n', '<C-p>', ':Ex<Enter>')
 
