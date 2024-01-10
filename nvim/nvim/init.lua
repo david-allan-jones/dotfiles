@@ -1,4 +1,4 @@
-require('keymap')
+require('maelstrom')
 
 vim.o.compatible = false
 vim.o.hidden = true
