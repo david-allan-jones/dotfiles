@@ -2,7 +2,6 @@ vim.g.mapleader = ' '
 
 -- Misc
 vim.keymap.set('i', 'jj', '<Esc>')
-vim.keymap.set('n', '<Esc><Esc>', ':noh<CR><Esc>')
 
 -- Paste without overwriting 
 vim.keymap.set('v', 'p', '"_dP')
@@ -20,7 +19,6 @@ vim.keymap.set('n', '<C-f>', '<C-f>zz')
 vim.keymap.set('n', '<C-b>', '<C-b>zz')
 vim.keymap.set('n', '<C-d>', '<C-d>zz')
 vim.keymap.set('n', '<C-u>', '<C-u>zz')
-vim.keymap.set('n', '<C-p>', ':Ex<Enter>')
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
 -- Buffer/Window Shortcuts
