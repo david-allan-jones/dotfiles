@@ -117,28 +117,16 @@ if ! shopt -oq posix; then
 fi
 
 alias c='clear'
+alias ga='git add'
+alias gb='git branch'
+alias gc='git commit -m'
 alias gf='git fetch'
-alias root='cd ~/../..'
-alias home='cd ~'
-
-gp() {
-	git pull origin $1 
-}
-
-commit() {
-	git commit -m $1	
-}
+alias gp='git pull'
+alias gr='git reset'
+alias gstate='git status' #Dang GhostScript taking up gs
 
 irebase() {
 	git rebase -i HEAD~$1
-}
-
-v() {
-	if [ -z "$1" ]; then
-		vim .
-	else
-		vim "$1"
-	fi
 }
 
 export NVM_DIR="$HOME/.nvm"
