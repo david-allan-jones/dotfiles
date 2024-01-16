@@ -22,13 +22,15 @@ vim.keymap.set('n', '<C-u>', '<C-u>zz')
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
 -- Buffer/Window Shortcuts
-vim.keymap.set('n', '<leader>pp', vim.cmd.bp)
-vim.keymap.set('n', '<leader>nn', vim.cmd.bn)
-vim.keymap.set('n', '<leader>dd', vim.cmd.bd)
-vim.keymap.set('n', '<leader>jj', '<C-w>j')
-vim.keymap.set('n', '<leader>kk', '<C-w>k')
-vim.keymap.set('n', '<leader>hh', '<C-w>h')
-vim.keymap.set('n', '<leader>ll', '<C-w>l')
+vim.keymap.set('n', '<S-h>', vim.cmd.bp)
+vim.keymap.set('n', '<S-l>', vim.cmd.bn)
+vim.keymap.set('n', '<leader>bd', vim.cmd.bd)
+vim.keymap.set('n', '<leader>v', vim.cmd.vsplit)
+vim.keymap.set('n', '<leader>s', vim.cmd.split)
+vim.keymap.set('n', '<leader>j', '<C-w>j')
+vim.keymap.set('n', '<leader>k', '<C-w>k')
+vim.keymap.set('n', '<leader>h', '<C-w>h')
+vim.keymap.set('n', '<leader>l', '<C-w>l')
 
 -- Search Utility
 vim.keymap.set('n', 'n', 'nzzzv')
