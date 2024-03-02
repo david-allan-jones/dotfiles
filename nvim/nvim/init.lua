@@ -15,5 +15,7 @@ vim.o.linebreak = true
 vim.o.hlsearch = true
 vim.o.smartindent = true
 
-vim.cmd("set tabstop=4")
-vim.cmd("set shiftwidth=4")
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
