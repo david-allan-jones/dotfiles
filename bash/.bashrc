@@ -118,7 +118,20 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#General
 alias c='clear'
+vaulto() {
+    gpg "vault_$1.tar.gpg"
+    tar -xf "vault_$1.tar"
+    rm "vault_$1.tar"
+}
+vaultc() {
+    tar -cf "vault_$(date "+%m%d%Y").tar" $1
+    gpg -c "vault_$(date "+%m%d%Y").tar"
+    rm "vault_$(date "+%m%d%Y").tar"
+}
+
+# Git related
 alias ga='git add'
 alias gb='git branch'
 alias gc='git commit -m'
@@ -126,11 +139,11 @@ alias gf='git fetch'
 alias gp='git pull'
 alias gr='git reset'
 alias gstate='git status' #Dang GhostScript taking up gs
-
 irebase() {
 	git rebase -i HEAD~$1
 }
 
+# Neovim
 alias vi='nvim'
 alias vim='nvim'
 
