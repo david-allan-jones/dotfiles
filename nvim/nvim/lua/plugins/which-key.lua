@@ -11,6 +11,7 @@ return {
       { '<leader>r', group = '[R]ename' },
       { '<leader>s', group = '[S]earch' },
       { '<leader>w', group = '[W]orkspace' },
+      { '<leader>[]', group = '[] Window' },
     }
   end,
 }
