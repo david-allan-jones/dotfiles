@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo rm -rf ~/.config/nvim
 sudo rm /usr/local/bin/nvim
 
