@@ -4,11 +4,12 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # For functions
-if [ -f ~/.bash_functions ]; then
-  . ~/.bash_functions
+if [ -f ~/.bash_functions.sh ]; then
+  . ~/.bash_functions.sh
 fi
 
 # For environment specific locals (work, etc); should not be versioned
-if [ -f ~/.bash_locals ]; then
-  . ~/.bash_locals
+if [ -f ~/.bash_locals.sh ]; then
+  . ~/.bash_locals.sh
 fi
+
