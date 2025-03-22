@@ -1,4 +1,4 @@
 #!/bin/bash
 
-git config --global core.excludesfile $(pwd)/git/.gitignore
-git config --global core.editor vim
+ln -s $(pwd)/git/.gitconfig ~/.gitconfig
+ln -s $(pwd)/git/.gitignore ~/.gitignore
