@@ -1,2 +1,6 @@
+#!/bin/bash
+
 ln -s $(pwd)/bash/.bash_profile ~/.bash_profile
 ln -s $(pwd)/bash/.bashrc ~/.bashrc
+ln -s $(pwd)/bash/.bash_aliases ~/.bash_aliases
+ln -s $(pwd)/bash/.bash_functions ~/.bash_functions
