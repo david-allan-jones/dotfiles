@@ -14,5 +14,5 @@ if [ -f ~/.bash_locals.sh ]; then
 fi
 
 # Customizing PS1 with username and hostname in green, and git branch in yellow
-PS1='\e[36m🗀  \w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ '
+PS1='\e[36m\W\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ '
 PS2='… '
