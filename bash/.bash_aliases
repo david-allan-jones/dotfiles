@@ -13,6 +13,10 @@ alias gr='git reset'
 alias gs='git switch'
 alias gcf='git cat-file -p'
 alias gl='git log --oneline --graph'
+alias gw='git worktree'
+alias gwa='git worktree add'
+alias gwl='git worktree list'
+alias gwrm='git worktree remove'
 
 alias la='ls -Al --color=auto'
 
