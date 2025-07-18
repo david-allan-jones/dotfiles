@@ -3,20 +3,13 @@ This repo contains personal configuration and rc files for my development enviro
 
 ## Installation
 
-To set up the development environment using this repository, simply navigate to this repo's root directory and run the below command. 
+To set up the development environment using this repository, run the below command:
 
 ```bash
-git clone <this-repo>
-cd <this-repo>
-./install/setup_<your_env>.sh
-```
-
-For example, on Ubuntu run
-
-```bash
-./install/setup_ubuntu.sh
+git clone git@github.com:david-allan-jones/dotfiles.git
+sh dotfiles/setup.sh
 ```
 
 ## Adding New Installs
 
-This project is structured such that each piece of software gets its own directory. This is where all that software's configuration should live. Inside every setup_ script it should iterate over every directory and run the `install.sh` file present in each directory that is not `bin/` or `install/` (this will be each software product). This script should take all the necessary steps to install the software.
+This project takes a flat structure where configuration for variuos tools are presesnt in the root. The `setup.sh` file will perform necessary installation (needs to maintained with different environments and package managers) as well as a step to then either copy the config file to the appropriate location or create symbolic link. This means you can edit the configuration file where the tool looks for it and then commit it later if you wish from the git repo directory.
