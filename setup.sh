@@ -7,3 +7,6 @@ ln -s $(pwd)/bash/.bashrc ~/.bashrc
 # Git
 ln -s $(pwd)/git/.gitconfig ~/.gitconfig
 ln -s $(pwd)/git/.gitignore ~/.gitignore
+
+# Vim
+ln -s $(pwd)/vim/.vimrc ~/.vimrc
