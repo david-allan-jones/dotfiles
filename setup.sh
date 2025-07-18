@@ -17,5 +17,5 @@ ln -s $(pwd)/.vimrc ~/.vimrc
 # Neovim
 ln -s $(pwd)/nvim ~/.config/nvim
 
-# Readline
+# GNU Readline
 ln -s $(pwd)/inputrc /etc/inputrc
