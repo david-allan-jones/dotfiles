@@ -1,1 +1,4 @@
-nvim/nvim/lua/locals
+*.swp
+dump.rdb
+out
+tmp
