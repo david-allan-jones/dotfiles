@@ -17,8 +17,6 @@ set hlsearch
 set ai
 set si
 
-syntax enable
-
 "====== BEGIN REMAP SECTION ======" 
 
 inoremap jj <esc>
